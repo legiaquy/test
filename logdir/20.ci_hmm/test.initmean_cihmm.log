@@ -1,0 +1,47 @@
+Current configuration:
+[NAME]		[DEFLT]		[VALUE]
+-accumdir			/home/quylg/anaconda3/envs/Quy/asr/pocketsphinx/training_acoustic/test/bwaccumdir/test_buff_1
+-agc		none		none
+-agcthresh	2.0		2.000000e+00
+-cepdir				/home/quylg/anaconda3/envs/Quy/asr/pocketsphinx/training_acoustic/test/feat
+-cepext		mfc		mfc
+-ceplen		13		13
+-cmn		live		batch
+-cmninit	40,3,-1		40,3,-1
+-ctlfn				/home/quylg/anaconda3/envs/Quy/asr/pocketsphinx/training_acoustic/test/etc/test_train.fileids
+-dictfn				
+-example	no		no
+-fdictfn			
+-feat		1s_c_d_dd	1s_c_d_dd
+-fullvar	no		no
+-help		no		no
+-lda				
+-ldadim		0		0
+-lsnfn				
+-meanfn				
+-moddeffn			
+-npart				1
+-nskip				0
+-part				1
+-runlen				0
+-scaleseg	no		no
+-segdir				
+-segext		v8_seg		v8_seg
+-svspec				
+-ts2cbfn			
+-varnorm	no		no
+
+INFO: feat.c(715): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='batch', VARNORM='no', AGC='none'
+INFO: corpus.c(1062): Will process all remaining utts starting at 0
+INFO: init_gau.c(134): Computing 1x1x1 mean estimates
+INFO: cmn.c(133): CMN: 45.94  7.89 -7.73 -0.38 -22.79 -3.65 -5.44 -5.40  1.78  5.29  3.09 -1.61  3.69 
+INFO: cmn.c(133): CMN: 55.74 -0.21 -18.13  1.62 -8.03 -0.93 -5.15  1.62  0.60  9.54 -0.55 -4.32  3.81 
+INFO: cmn.c(133): CMN: 53.61  1.91 -21.36 -5.11 -3.36  0.64 -4.75 -2.68  5.79  2.29 -1.65 -3.00  0.93 
+INFO: cmn.c(133): CMN: 45.73 13.10 -3.64 -2.05 -16.36 -2.32 -1.84 -6.42  1.41  7.27  0.57 -4.50  2.06 
+INFO: cmn.c(133): CMN: 45.56  6.86 -15.89 -4.25 -5.52  1.09 -1.66 -4.64 -4.70  5.89  0.69 -4.67  2.43 
+INFO: cmn.c(133): CMN: 45.46  7.77 -4.18 -10.66 -12.75 -3.45 -2.70 -4.16 -0.59  3.56 -0.41 -0.81  0.09 
+INFO: cmn.c(133): CMN: 53.70  5.75 -16.02 -1.84 -12.55 -1.84 -4.17  0.33 -8.48  5.05 -0.06 -5.41  1.60 
+INFO: cmn.c(133): CMN: 52.31  4.15 -18.32 -7.14 -4.61  0.74 -2.02 -2.03 -2.56  3.93  0.30 -7.56  0.71 
+INFO: cmn.c(133): CMN: 52.14 -4.58 -3.25 17.90 -4.01 -5.11 -2.52 -0.21 -2.10 -0.16 -1.31 -3.85 -0.85 
+INFO: s3gau_io.c(485): Wrote /home/quylg/anaconda3/envs/Quy/asr/pocketsphinx/training_acoustic/test/bwaccumdir/test_buff_1/gauden_counts with means [1x1x1 vector arrays]
+Wed May 15 10:00:28 2019

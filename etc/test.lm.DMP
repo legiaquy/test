@@ -1,0 +1,78 @@
+Language model created by QuickLM on Sun May 12 12:39:10 EDT 2019
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 10 sentences and 11 words
+
+\data\
+ngram 1=11
+ngram 2=26
+ngram 3=18
+
+\1-grams:
+-0.8808 </s> -0.3010
+-0.8808 <s> -0.1836
+-1.5798 BA -0.2264
+-1.5798 BảY -0.2264
+-1.5798 BốN -0.2264
+-1.5798 CHíN -0.2398
+-1.5798 HAI -0.2264
+-1.5798 MộT -0.2264
+-1.5798 NăM -0.2264
+-1.5798 SáU -0.2264
+-1.5798 TáM -0.2264
+
+\2-grams:
+-1.3010 <s> BA -0.1761
+-1.3010 <s> BảY -0.1761
+-1.3010 <s> BốN -0.1761
+-1.3010 <s> CHíN 0.0000
+-1.3010 <s> HAI -0.1761
+-1.0000 <s> MộT 0.0000
+-1.3010 <s> NăM -0.1761
+-1.3010 <s> SáU -0.1761
+-1.3010 <s> TáM -0.1761
+-0.6021 BA </s> -0.3010
+-0.6021 BA BốN -0.1761
+-0.6021 BảY </s> -0.3010
+-0.6021 BảY TáM -0.1761
+-0.6021 BốN </s> -0.3010
+-0.6021 BốN NăM -0.1761
+-0.3010 CHíN </s> -0.3010
+-0.6021 HAI </s> -0.3010
+-0.6021 HAI BA -0.1761
+-0.6021 MộT </s> -0.3010
+-0.6021 MộT HAI -0.1761
+-0.6021 NăM </s> -0.3010
+-0.6021 NăM SáU -0.1761
+-0.6021 SáU </s> -0.3010
+-0.6021 SáU BảY -0.1761
+-0.6021 TáM </s> -0.3010
+-0.6021 TáM CHíN 0.0000
+
+\3-grams:
+-0.3010 <s> BA </s>
+-0.3010 <s> BảY </s>
+-0.3010 <s> BốN </s>
+-0.3010 <s> CHíN </s>
+-0.3010 <s> HAI </s>
+-0.6021 <s> MộT </s>
+-0.6021 <s> MộT HAI
+-0.3010 <s> NăM </s>
+-0.3010 <s> SáU </s>
+-0.3010 <s> TáM </s>
+-0.3010 BA BốN NăM
+-0.3010 BảY TáM CHíN
+-0.3010 BốN NăM SáU
+-0.3010 HAI BA BốN
+-0.3010 MộT HAI BA
+-0.3010 NăM SáU BảY
+-0.3010 SáU BảY TáM
+-0.3010 TáM CHíN </s>
+
+\end\
